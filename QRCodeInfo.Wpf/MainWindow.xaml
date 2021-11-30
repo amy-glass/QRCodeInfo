@@ -5,9 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QRCodeInfo.Wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="494" Width="800">
     <Grid>
-        <TextBlock x:Name="txtResults" HorizontalAlignment="Left" Margin="195,154,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="165" Width="405"/>
+        <TextBlock x:Name="txtResults" HorizontalAlignment="Left" Margin="526,5,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="58" Width="253"/>
+        <Label Content="QR Code Data" HorizontalAlignment="Left" Margin="423,5,0,0" VerticalAlignment="Top" Height="27"/>
+        <Label Content="QR Code" HorizontalAlignment="Left" Margin="30,5,0,0" VerticalAlignment="Top" Height="27"/>
+        <Image x:Name="img_qrCode" HorizontalAlignment="Left" Height="76" Margin="140,5,0,0" VerticalAlignment="Top" Width="198"/>
+        <TextBlock x:Name="txtOne" HorizontalAlignment="Left" Margin="30,160,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="730" Height="94"/>
+        <TextBlock x:Name="txtTwo" HorizontalAlignment="Left" Margin="30,255,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="730" Height="94"/>
+        <TextBlock x:Name="txtTwo_Copy" HorizontalAlignment="Left" Margin="30,255,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="730" Height="94"/>
+        <TextBlock x:Name="txtdiff" HorizontalAlignment="Left" Margin="30,354,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="730" Height="94"/>
 
     </Grid>
 </Window>
